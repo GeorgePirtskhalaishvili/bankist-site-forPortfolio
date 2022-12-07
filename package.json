@@ -2,9 +2,10 @@
   "name": "bankis-app",
   "version": "1.0.0",
   "description": "site for Bank",
-  "main": "script.js",
+  "default": "index.html",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "George Pirtskhalaishvili",
   "license": "ISC",
